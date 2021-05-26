@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="navlink" id="navLink">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="blogleft">
+                <img src="./eduford_img/certificate.jpg">
+                <h2>Our Certificate & Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Accusamus rerum laborum quasi saepe dolores dolorem! Ullam 
+                inventore dolorum at pariatur odio laborum. Deserunt rerum 
+                beatae totam quia omnis, soluta ipsa fugiat impedit quo 
+                possimus dolor voluptas harum perspiciatis saepe commodi!</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nobis asperiores odit fuga nam eligendi. Error, consequuntur 
+                quos unde laborum quaerat quisquam sit rerum ad aperiam, commodi, 
+                deleniti laudantium nobis tenetur. Minima dolorem quisquam alias 
+                facere libero reprehenderit. Doloremque, quia. Officia iusto est 
+                consequuntur itaque aperiam modi ratione, fugiat tempore laboriosam. 
+                Deleniti recusandae iste voluptatibus accusantium ad eveniet velit, 
+                nesciunt tempora! Ad modi quo voluptatibus ab, sunt assumenda saepe 
+                ullam nostrum cupiditate magnam, nisi repudiandae cumque temporibus 
+                blanditiis eum non doloremque obcaecati suscipit, delectus nemo eaque 
+                sit sint laboriosam odit! Numquam?</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ut, 
+                voluptas rerum necessitatibus minima eius quisquam deserunt a tenetur 
+                dolorum officia? Perferendis quisquam laborum debitis! Est, dicta dolores 
+                cum mollitia necessitatibus quasi, magnam eum tempore officiis debitis 
+                voluptatibus et quis quo? Maiores amet alias cupiditate deserunt dignissimos 
+                asperiores officia eligendi! Quo amet incidunt ipsa rem, autem perferendis 
+                voluptatem dolores, quos maiores reprehenderit atque rerum vitae, repellat 
+                sed obcaecati numquam. Voluptatibus similique sint deleniti temporibus ex?</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, 
+                maiores laboriosam? Architecto mollitia unde suscipit repudiandae at, 
+                alias, eaque commodi sequi repellat nisi illo iste asperiores culpa ullam fuga distinctio.</p>
+
+                <div class="comment">
+                    <h3>Leave a Comment</h3>
+                    <form class="commentform">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn aboutbtn">POST A COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blogright">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, 
+            alias quis possimus eveniet sed aliquam corrupti assumenda commodi<br> amet 
+            veniam, quibusdam earum ratione perferendis at eum eaque, necessitatibus fugiat!</p>
+            <div class="icon">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin" ></i>
+            </div>
+    </section>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function show() {
+            navLink.style.right = "0"
+        }
+
+        function hide() {
+            navLink.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
